@@ -1,0 +1,34 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Step 2: Define variables to store demographic information
+        int studentId = 2455343;
+        string fullName = "John Mark";
+        string nickName = "HaSh";
+        string gender = "Male";
+        int yearLevel = 2;
+        string homeLocation = "Balay";
+        string course = "Computer Science";
+        long mobileNo = 09111111111;
+        string personalEmail = "johnhakdog21@gmail.com";
+        
+        // Step 4: Display the values using Console.WriteLine
+        Console.WriteLine("Student Information:");
+        Console.WriteLine("---------------------");
+        Console.WriteLine("Student ID: " + studentId);
+        Console.WriteLine("Full Name: " + fullName);
+        Console.WriteLine("Nick Name: " + nickName);
+        Console.WriteLine("Gender: " + gender);
+        Console.WriteLine("Year Level: " + yearLevel);
+        Console.WriteLine("Home Location: " + homeLocation);
+        Console.WriteLine("Course: " + course);
+        Console.WriteLine("Mobile No.: " + mobileNo);
+        Console.WriteLine("Personal Email: " + personalEmail);
+
+        // Optional: Wait for user input to keep the console window open
+        Console.ReadLine();
+    }
+}
